@@ -1,5 +1,8 @@
 .gradle
+.idea
 /build
+
+app/build
 
 **/.idea/**
 /local.properties
@@ -7,3 +10,4 @@
 /build
 /captures
 temp
+app/*.apk
