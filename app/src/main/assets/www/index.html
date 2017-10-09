@@ -1,0 +1,100 @@
+<html>
+ <head>
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css">
+
+<link rel="stylesheet" href="./css/main.css">
+
+<!-- Include the jQuery library -->
+<script src="./js/jquery-1.11.2.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="./js/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="./js/main.js"></script>
+
+</head> 
+
+<body>
+<div data-role="page" data-theme="b">
+ <div data-role="header">
+	<h1>Mensuration</h1>
+ </div>
+ 
+ <div data-role="main" class="ui-content">
+ <p>This app gives information about many shapes and solids.<br/>
+	Just by giving its length, width, height, radius etc.</p>
+	<div data-role="collapsible" data-collapsed="true">
+	<h1>Plain (2D)</h1>
+		<div id="obj2d">
+		<img onclick="square()" class="img" src="./img/sq.jpg"/>
+		<img onclick="rectangle()" class="img" src="./img/rect.png"/>
+		<img onclick="triangle()" class="img" src="./img/tri.jpg"/>
+		<img onclick="circle()" class="img" src="./img/circle.jpg"/>
+		<img onclick="trapezium()" class="img" src="./img/trap.jpg"/>
+		<img onclick="rhombus()" class="img" src="./img/rhom.jpg"/>
+		<img onclick="llgm()" class="img" src="./img/llgm.jpg"/>
+		</div>
+	</div>
+	
+	<div data-role="collapsible" data-collapsed="true">
+	<h1>Solid (3D)</h1>
+		<div id="obj3d">
+		<img onclick="cube()" class="img" src="./img/cube.jpg"/>
+		<img onclick="cuboid()" class="img" src="./img/cuboid.jpg"/>
+		<img onclick="cone()" class="img" src="./img/cone.jpg"/>
+		<img onclick="cylinder()" class="img" src="./img/cylinder.jpg"/>
+		<img onclick="sphere()" class="img" src="./img/sphere.jpg"/>
+		<img onclick="hemisphere()" class="img" src="./img/hemi.jpg"/>
+		</div>
+	</div>
+	
+	<div data-role="collapsible" data-collapsed="true">
+	<h1>Help</h1>
+	    <h3>Instructions</h3><p>This app have two modes, 2D and 3D; In your selected option, just choose the your shape and follow the commands.<br/><br/>
+		In 2D mode; Square, rectangle, triangle, rhombus, parallelogram and circle are available; You have to 
+		enter the asked dimensions of the shape and this app will give you the perimeter and area of that object.
+		<br/><br/>In 3D mode; Cube, cuboid, cone, cylinder, sphere and hemisphere are available; You have to enter the
+		asked dimensions of the shape and this app will give you the surface areas, area and volume of that object.</p>
+	
+		<div id="note">
+		<p>Note:- This app takes the value of pi upto six decimal places.<br/>
+		So the result will be shown in the approximate value, where pi is used.</p>
+		</div>
+	</div>
+	
+	<div data-role="collapsible" data-collapsed="true">
+	<h1>About me</h1>
+		<img height="200px" width="250px" src="./img/me.jpg"/>
+		<p>This program is created by:- Adarsh kumar.<br/>
+		Thank you for downloading and using this app. Rate it on Amazon App Store if you like it.<br/>
+		Support me. More apps are coming sooooon..........</p>
+	</div>
+	
+	<div data-role="collapsible" data-collapsed="true">
+	<h1>Feedback</h1>
+	<p>If you find any type of mistake or error in this app, mail me.<br/>
+	Your every feedback will be taken very seriously.<br/>
+	Keep using this app and support my company.<br/><br/>
+	Mail me at:- <a href="mailto:idealtech.soft@gmail.com">idealtech.soft@gmail.com</a>.
+	</p>
+	</div>
+ </div>
+ 
+ <div data-role="footer">
+	<div data-role="footer">
+    <a href="http://idealadarsh.wordpress.com" class="ui-btn ui-icon-star ui-btn-icon-left">My Website</a>
+	</div>
+ </div>
+
+
+
+</div>
+</body>
+
+
+</html>
