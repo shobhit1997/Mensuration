@@ -81,6 +81,22 @@ var ans= "Area = "+ar+" sq. "+u+"\nPerimeter = "+pr+u;
 {
 alert(ans);
 }}
+function kite()
+{
+var u=prompt("Enter the unit of measurement.","cm");
+var ts=prompt("Enter the length of shorter side.",4);
+var td1=prompt("Enter the length of longer side.",4);
+var td2=prompt("Enter the angle between two unequal adjacent sides.",60);
+var a=parseInt(ts);
+var b=parseInt(td1);
+var angle=parseInt(td2)*180*Math.PI;
+
+var ar=a*b*Math.sin(angle);
+var pr=2*a+2*b;
+var ans= "Area = "+ar+" sq. "+u+"\nPerimeter = "+pr+u;
+{
+alert(ans);
+}}
 
 function triangle()
 {
